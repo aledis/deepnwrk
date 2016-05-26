@@ -1,0 +1,10 @@
+apply plugin: 'scala'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.scala-lang', name: 'scala-pickling_2.11', version: '0.9.1'
+    compile group: 'org.scalanlp', name: 'breeze-math_2.10', version: '0.4'
+}
